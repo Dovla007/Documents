@@ -4,6 +4,7 @@ codeunit 50101 MyNewCodeunit
     local procedure CustomerOnAfterInsert(var Rec: Record Customer; RunTrigger: Boolean);
     begin
         Message('Procedura radi kako treba');
+        Message('Nova test poruka!');
     end;
 
 }
